@@ -40,7 +40,7 @@ CONDITIONS IT CAN LEADS TO TERMINATE UR ACCOUNT FROM THAT PLATFORM
 
 
 const {
-    iris,
+    spy-x-md,
     commands,
     isPublic
 } = require("../lib/commands.js");
@@ -65,7 +65,7 @@ const {
 
 
 
-iris(
+spy-x-md(
     {
         name: "insta",
         fromMe: isPublic,
@@ -96,7 +96,7 @@ iris(
     }
 );
 
-iris(
+spy-x-md(
     {
         name: "story",
         fromMe: isPublic,
@@ -129,7 +129,7 @@ iris(
     }
 );
 
-iris(
+spy-x-md(
     {
         name: "image",
         fromMe: isPublic,
@@ -173,7 +173,7 @@ iris(
 );
 
 
-iris(
+spy-x-md(
     {
         name: "gdrive",
         fromMe: isPublic,
@@ -191,7 +191,7 @@ var document= await fetch(`https://api.maher-zubair.tech/download/gdrive?url=${a
     }
     );
 
-iris(
+spy-x-md(
     {
         name: "mediafire",
         fromMe: isPublic,
@@ -210,7 +210,7 @@ var document= await fetch(`https://api.maher-zubair.tech/download/mediafire?url=
     );
 
 
-iris(
+spy-x-md(
     {
         name: "xvdl",
         fromMe: isPublic,
@@ -231,7 +231,7 @@ var data = await xvdl.json();
   );
 
 
-iris(
+spy-x-md(
     {
         name: "ytv",
         fromMe: isPublic,
@@ -249,7 +249,7 @@ client.sendMessage(m.jid, { video :{ url: dll }, caption: "_IRIS-MD_"}, {quoted:
     );
 
 
-iris(
+spy-x-md(
     {
         name: "song",
         fromMe: isPublic,
