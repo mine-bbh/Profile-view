@@ -4,22 +4,16 @@
 //                                                                                                      //
 //                                             𝚅.1.2.7                                                  // 
 //                                                                                                      //
-//                          ██╗ ██████╗ ██╗███████╗    ███╗   ███╗ ██████╗                              //
-//                          ██║ ██╔══██╗██║██╔════╝    ████╗ ████║ ██╔══██╗                             //
-//                          ██║ ██████╔╝██║███████╗    ██╔████╔██║ ██║  ██║                             //
-//                          ██║ ██╔══██╗██║╚════██║    ██║╚██╔╝██║ ██║  ██║                             //
-//                          ██║ ██║  ██║██║███████║    ██║ ╚═╝ ██║ ██████╔╝                             //
-//                          ╚═╝ ╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝ ╚═════╝                              //
 //                                                                                                      //
-//                                          BY: VENOX-SENPAI                                            //
+//                                          BY: DANUPA-X.z                                              //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 
 /**
 
-* @project_name : IRIS-MD
-* @Developer : Venox-Senpai
+* @project_name : spy-x-md
+* @Developer : Danupa-Xz
 * @Version : v.1.2.7
 * @license : APACHE-2.0
 
@@ -29,11 +23,9 @@ TO A DMCA REPORT FROM THE OFFICIAL GITHUB, WHICH RESULT IN
 REMOVING UR COPIED/RE-UPLOADED PROJECT FROM THERE, IN SOME
 CONDITIONS IT CAN LEADS TO TERMINATE UR ACCOUNT FROM THAT PLATFORM
 
-│• @C_holder : Venox-Senpai
+│• @C_holder : Danupa-Xz
 
 **/
-
-
 
 
 
@@ -58,7 +50,7 @@ const font = require("@viper-x/fancytext");
 // Type 1: Group Management Commands
 //───────────────────────────────────
 
-iris({
+spy-x-md({
     name: "mute",
     fromMe: isPublic,
     desc: "Mutes the group.",
@@ -69,7 +61,7 @@ iris({
     return await m.reply("_Group messages restricted to admins._");
 });
 
-iris({
+spy-x-md({
     name: "unmute",
     fromMe: isPublic,
     desc: "Unmutes the group",
@@ -80,7 +72,7 @@ iris({
     return await m.reply("_Group messages unrestricted._");
 });
 
-iris({
+spy-x-md({
     name: "promote",
     fromMe: isPublic,
     desc: "Promotes a user to admin",
@@ -101,7 +93,7 @@ iris({
     }
 });
 
-iris({
+spy-x-md({
     name: "demote",
     fromMe: isPublic,
     desc: "Demotes a user from admin",
@@ -125,7 +117,7 @@ iris({
 // Type 2: Group Actions
 //────────────────────────
 
-iris({
+spy-x-md({
     name : "left",
     fromMe: true,
     category : "group",
@@ -137,7 +129,7 @@ iris({
     await client.groupLeave(m.jid);
 });
 
-iris({
+spy-x-md({
     name : "invite",
     fromMe: true,
     category : "group",
@@ -148,7 +140,7 @@ iris({
     await m.reply(`_Group invite link: https://chat.whatsapp.com/${response}_`);
 });
 
-iris({
+spy-x-md({
     name : "revoke",
     fromMe: true,
     category : "group",
@@ -159,7 +151,7 @@ iris({
     await m.reply("_The group invite link has been revoked._");
 });
 
-iris({
+spy-x-md({
     name : "join",
     fromMe: true,
     category : "group",
