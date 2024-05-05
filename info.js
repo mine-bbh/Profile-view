@@ -45,7 +45,7 @@ module.exports = {
     HANDLERS: process.env.HANDLERS || '.',
     INFO: process.env.INFO || 'SPY-X-MD;DanupaX;https://telegra.ph/file/105f7645688f80ccec88f.jpg',
     URL: process.env.URL || 'https://chat.whatsapp.com/DuHkJmKQTqhDzUbc19zykJ',
-    SUDO: process.env.SUDO || '94775478099',
+    SUDO: process.env.SUDO || '94775478099,94775341543',
     AUTO_STATUS_VIEW: process.env.AUTO_STATUS_VIEW || 'true',
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || 'true',
     MODE: process.env.MODE || 'public',
