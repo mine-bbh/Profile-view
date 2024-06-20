@@ -10,8 +10,8 @@
 <br>
 
   <p align="center">  
-  <a href="https://telegra.ph/file/105f7645688f80ccec88f.jpg">
-    <img alt="vivu-md" height="300" src="https://telegra.ph/file/105f7645688f80ccec88f.jpg">
+  <a href="https://telegra.ph/file/81c0abc0985096ce723ef.jpg">
+    <img alt="vivu-md" height="300" src="https://telegra.ph/file/81c0abc0985096ce723ef.jpg">
 
 
     
