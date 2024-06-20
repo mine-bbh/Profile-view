@@ -49,13 +49,6 @@
 <a href='https://railway.app/template/12FD9C?referralCode=Wbbu1p' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway&logoColor=white'/></a>
 <br><br>
 
----
-
- ### Deploy On Replit
-
-[`Replit`](https://github.com/Danupa0/OZZY-chat-bot/blob/main/md/deplou_on_replit.md)
-
----
 
 < Loading...
   <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
